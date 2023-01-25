@@ -931,9 +931,8 @@ ul.features-list li {
 
 .iconbox2 {
   float: right;
-  width: 100px;
+  width: 80px;
   height: 50px;
-  text-align: center;
 }
 
 .iconbox2 i {
@@ -1064,9 +1063,11 @@ p.copyright {
 
 @media screen and (max-width: 1200px) {
 
-  #about-section .about {
-    padding-top: 40px;
-  }
+    
+    .features-image {
+  text-align: center;
+  padding-top: 100px;
+}
 
 }
 
@@ -1087,10 +1088,6 @@ p.copyright {
   #type-masory {
     width: auto;
 }
-
-  #about-section .about {
-    padding: 90px 70px;
-  }
 
   .member-team .magnifier .magnifier-inner {
     padding: 0 10px;
@@ -1149,6 +1146,15 @@ p.copyright {
   .breadcrumb {
     text-align: center;
   }
+    
+  .features-image {
+  text-align: center;
+  padding-top:0px;
+}
+
+   .client {
+    padding: 20px;
+}
 
 }
 
@@ -1157,6 +1163,10 @@ p.copyright {
   .navbar .container {
     width: auto;
   }
+    
+  .client {
+    padding: 10px;
+}
 
   .big-title-sec .view-more a {
     margin: 5px 0;
@@ -1164,23 +1174,6 @@ p.copyright {
 
   .hero-content h1 {
     font-size: 38px;
-  }
-
-  .soon-countdown div span:first-child {
-    font-size: 60px;
-  }
-
-  .creative-content-left {
-    padding-top: 0;
-  }
-
-   #creative-section-1 .view-more {
-    text-align: center!important;
-   }
-
- #creative-section-2 .view-more {
-    margin-bottom: 80px;
-    text-align: center!important;
   }
 
   .about-studio, .what-do {
@@ -1210,13 +1203,23 @@ p.copyright {
     margin-bottom: 40px;
   }
 
-  .client img {
-    width: 70%!important;
-  }
-
   .about-me h4 a {
     margin-bottom: 30px;
   }
+    
+.client a img {
+    width: 15%;
+}
+    
+.col-xs-4 {
+    width: 100% !important;
+}
+     
+.col-sm-3 {
+    width: 40% !important;
+    display: inline-block;
+    margin-left: 50px;
+}
 
 }
 
@@ -1225,6 +1228,12 @@ p.copyright {
   h1, .h1 {
     font-size: 40px;
   }
+    
+  .col-sm-3 {
+    width: 43% !important;
+    display: inline-block;
+    margin-left: 30px;
+}
 
     .hero-content h1 {
     font-size: 33px;
@@ -1265,8 +1274,12 @@ p.copyright {
   }
 
   .client img {
-    width: 100%!important;
+    width: 40%!important;
   }
+    
+  .social{
+     padding-top: 30px;   
+    }
 
 }
 
@@ -1274,4 +1287,25 @@ p.copyright {
   .back-to-top {
     visibility: hidden;
   }
+    
+.col-sm-3 {
+    width: 80% !important;
+    margin-left: 40px;
 }
+}
+@media screen and (max-width: 330px) {
+    
+  .social{
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+
